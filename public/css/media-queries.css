@@ -1,0 +1,347 @@
+/*Large Desktop Screens */
+@media (min-width: 1445px){
+}
+/*//////////////////////////// Desktop ///////////////////////////////////// */
+@media (min-width: 1200px) {
+
+}
+/*//////////////////////FIN DESKTOP//////////////////////////////////////////*/
+@media (max-width: 1300px) and (min-width: 1200px) {
+}
+/*///////////////////////IPAD PRO////////////////////////////////////////////*/
+@media (max-width: 1199px) and (min-width: 992px) {
+ .galeria .descripcion_galeria h2{
+     font-size: 20px;
+ }
+}
+/*///////////////////////FIN IPAD PRO///////////////////////*/
+
+/*///////////////////////IPAD //////////////////////////*/
+@media (max-width:991px) and (min-width:768px){
+    .galeria .descripcion_galeria h2{
+        font-size: 20px;
+    }
+}
+
+/*/////////////////////////////////FIN IPAD///////////////////////////////////*/
+
+/*//////////////////////////PHONES////////////////////////////////////////////*/
+@media (max-width: 767px) {
+    /*-------------------HOME---------------------*/
+    .slick_responsive{
+        display: block;
+    }
+    #hero .descripcion_hero{
+        display: none;
+    }
+    #hero h1{
+        font-size: 25px !important;
+        padding: 4%;
+    }
+    #hero .contenedor_hero{
+        vertical-align: bottom;
+    }
+    /* #home .contenedor_hero,#portafolio .section_alquiler, */
+    #vistaportafolio .contenedor_hero, #vistaportafolio .lista_producto, #portafolio .galeria_multimedia,
+    #portafolio .section_beneficios h1, #portafolio .section_beneficios .descripcion, #portafolio .section_escribenos, #portafolio .avatar_contenedor,
+    #portafolio .avatar_contenedor, #portafolio .contenedor_mapa, .mapa_ancla, #comunidad .section_eventos,
+    #comunidad .galeria_comunidad, #comunidad .filtro h1, #nosotros .secccion_nosotros .btn_contacto, #nosotros .section_alquiler h1,
+    #nosotros .certificados p, #nosotros .section_certificaciones, #nosotros .section_banner, #nosotros .oficinas_nosotros, #nosotros .galeria,
+    #portafolio .section_alquiler .contenido_nosotros, #portafolio .section_alquiler h1, #portafolio .section_alquiler a,
+    #galeria .segunda_galeria, #evento .segunda_galeria, .mas_portafolio 
+    {
+        display: none;
+    }
+    #home .section_banner{
+        display: none;
+    }
+    /* #header{
+        display: none;
+    } */
+    .section_banner div{
+        display: table-cell;
+    }
+    .container_2{
+        width: 100%;
+        margin: initial;
+    }
+    #home .row_galeria, #vistaportafolio .row_galeria{
+        display: none !important;
+    }
+    #hero{
+        margin: initial;
+        width: 100%;
+    }
+    #hero .container_1{
+        width: 100% !important;
+        
+        display: initial;
+    }
+    .hero_detalle{
+        width: 100%;
+    }
+    #hero .container_1 h1{
+        background: #fff; 
+    }
+    .galeria{
+        height: auto;
+    }
+    .lista_producto h3{
+       font-size: 16px; 
+    }
+    .primer_slider .slick-track{
+        height: 200px;
+    }
+
+    .col_footer:first-child{
+        display: none;
+    }
+    .footer{
+        text-align: left;
+    }
+    #footer .col_footer:last-child{
+        display: none;
+    }
+    #footer .contenedor_footer{
+        padding: initial;
+    }
+    .footer .footer_desktop{
+        display: none;
+    }
+    .footer .footer_responsive, #nosotros .section_certificaciones_responsive{
+        display: block;
+    }
+    #footer .container_3{
+        margin-left: initial;
+    }
+    #footer .form{
+        padding-right: initial;
+    }
+    #footer .container_3 .contenedor_contacto{
+        padding: 2% 10%;
+    }
+    .slider_section .slick-initialized .slick-slide{
+        margin-right: initial;
+        /* width: initial !important; */
+    }
+    #comunidad .responsive_galeria_comunidad{
+        display: block;
+    }
+    #hero .contenedor_hero .container_1 h1{
+        width: 100% !important;
+        margin: initial !important;
+    }
+
+    #portafolio .section_slider_portafolio{
+        display: block;
+    }
+    #portafolio .columns_li span{
+        font-size: 35px;
+    }
+    #portafolio .columns_li{
+        padding: 0% 15%;
+        display: flex;
+        flex-wrap: wrap
+    }
+    #portafolio .columns_li li{
+        flex: 1 40%;
+        margin-right: 1%;
+        text-align: left;
+    }
+    .section_banner h1, .section_banner .btn_banner{
+        font-size: 15px;
+    }
+    .section_banner p{
+        font-size: 10px; 
+     }
+    #portafolio .avatar_contenedor_section{
+        display: block;
+    }
+    #comunidad .banner_suscribete{
+        width: 60%;
+    }
+    #comunidad .section_banner{
+        margin-top: 50% !important;
+    }
+    #comunidad .filtro{
+        width: 100%;
+        position: relative;
+        left: initial;
+    }
+    #mapa {
+        height: 50vh;
+    }
+
+    #nosotros .secccion_nosotros .intro{
+        padding: 0% 3%;
+    }
+
+    #nosotros .contenido_nosotros:before{
+        top: 0%;
+        width: 90%;
+        height: initial;
+        left: initial;
+    }
+    #nosotros .certificados{
+        background: #EEEEEE !important;
+    }
+    #nosotros .section_certificaciones_responsive .descripcion{
+        padding: 0% 5%;
+    }
+    .oficina_slider .img_slider {
+        height: 100% !important;
+    }
+    #vistaportafolio .application--wrap{
+        min-height: 70vh;
+    }
+    #footer .contenedor_contacto{
+        text-align: left;
+    }
+    #comunidad .slider-single .slick-list .slick-slide div{
+        padding: 5% !important;
+    }
+    #header .navigation-drawer .contenedor_header{
+        position: fixed;
+    }
+    
+    #comunidad .slider-nav .slick-list .slick-slide div a, #comunidad .slider-single .slick-list .slick-slide div a{
+        color: #222 !important;
+    }
+    #comunidad .slider-nav .slick-list .slick-slide div{
+        padding: 1% !important;
+        position: relative;
+    }
+    #comunidad .slider-single .slick-list .slick-slide div{
+        position: relative;
+    }
+    #comunidad .slider-single .conten_2 p, #comunidad .slider-nav .conten_2 p{ 
+        position: absolute;
+        bottom: 0;
+    }
+    #comunidad .slider-nav .conten_2 p{
+        font-size: 10px;
+    }
+    #comunidad .slider-single .conten_2 hr,  #comunidad .slider-nav .conten_2 hr {
+        position: absolute;
+        bottom: 40px;
+        width: 90%;
+    }
+    #galeria{
+        z-index: initial !important;
+    }
+
+    #galeria .hero_detalle{
+        padding: 30% 5%;
+    }
+    #galeria .row_btn{
+        text-align: left;
+        margin-top: 10%;
+    }
+    /*HEADER*/
+
+    #header .trapecio{
+        background: #AA1731;
+        /* position: absolute; */
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: rotate(0deg);
+        width: initial;
+        height: 10%;
+        box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    }
+    #header .list_btn{
+        position: absolute;
+        right: 0px; 
+    }
+    #header .avatar_menu{
+        display: block;
+        position: absolute;
+        left: 0%;
+        top: 15%;
+    }
+    .navigation-drawer--close{
+        transform: translateY(-100%) !important;
+    }
+    .navigation-drawer--open{
+        transform: translateY(0px) !important;
+    }
+    #header .navigation-drawer .trapecio{
+        left: 0%;
+        height: 10%;
+        
+    }
+    #header .list_btn{
+        margin-top: 5% !important;
+    }
+    #header .contenedor_header .avatar{
+        z-index: 1;
+        margin-left: 35%;
+    }
+    #header .contenedor_header, #header .navigation-drawer{
+        width: 100% !important;
+    }
+    #header .btn_hamburguesa{
+        transform: rotate(0deg) !important;
+    }
+
+    #header .contenedor_header, #header .navigation-drawer .btn_hamburguesa{
+        margin-top: initial;
+    }
+    #header .navigation-drawer .btn_hamburguesa{
+        position: absolute;
+        right: 0px;
+        top: 60%;
+    }
+    #header .contenedor_header{
+        height: 100vh;
+    }
+    #header .list__tile__title{
+        font-size: 20px;
+    }
+    #header .portafolio_btn .list__group__header{
+        right: -49%;
+        top: -38px;
+    }
+ 
+    #header .contenedor_header .list--dense .list__tile{
+        margin: 3% 0%;
+    }
+     #header .contenedor_header .list--dense{
+            margin-left: 15%;
+     }
+     #header .redes{
+        /* width: 100%; */
+        width: 59%;
+        height: 10%;
+        display: inline-flex;
+        bottom: 0%;
+     }
+    #header .divider_line{
+        width: 0% !important;
+        height: 20px !important;
+        margin-top: 6% !important;
+        /* margin: initial !important; */
+    }
+    #header .redes .btn_list{
+        margin-top: 3%;
+     }
+    .btn_idioma, .btn_list, .btn_list a{
+         height: 34px;
+     }
+     .franja_suscribir{
+         display: none;
+     }
+     #galeria .responsive_slider, #evento .responsive_slider{
+         display: block;
+     }
+    
+    /*FIN HEADER*/
+    
+
+    /* #header .navigation-drawer .trapecio{
+        display: none;
+    } */
+    /*-------------------FIN HOME---------------------*/
+}
+/*///////////////////////FIN PHONES//////////////////////////////////////////*/

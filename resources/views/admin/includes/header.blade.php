@@ -11,7 +11,7 @@
         <v-list-tile-title>Home</v-list-tile-title> --}}
         <v-list class="pa-0">
           <v-list-tile avatar>
-            <img src={{url('images/logo.png')}} alt="img-responsive">
+            <img src={{url('images/logo.png')}} class="img-responsive" alt="img-responsive">
             <v-list-tile-content>
             </v-list-tile-content>
           </v-list-tile>

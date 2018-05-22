@@ -16,7 +16,7 @@
           @else
             <v-form method="POST" id="formContacto"  class="form form_portafolio" :action="url_sendContacto" @submit="checkForm" accept-charset="UTF-8" novalidate="true" >
           @endif
-          
+
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <v-layout row wrap>
                <v-flex xs12 sm6>
@@ -331,7 +331,7 @@
         <v-card-actions class="grey darken-3 justify-center">
         <v-layout wrap class="footer_desktop">
             <v-flex xs12 sm6 >
-            <span>Centenario Group, 2018. &copyAll rights reserved </span>
+            <span>Ampra Consultant, 2018. &copyAll rights reserved </span>
             </v-flex>
             <v-flex xs12 sm6>
                 <span>Términos y Condiciones | Política de Privacidad y Protección de datos</span>
@@ -343,7 +343,7 @@
             <span>Privacidad | Términos y Condiciones </span>
             </v-flex>
             <v-flex xs12>
-                <span>&copy Centenario Group, 2018. All rights reserved</span>
+                <span>&copy Ampra Consultant, 2018. All rights reserved</span>
             </v-flex>
             <v-flex xs12  class="intranet_responsive">
                 <span class="btn_intranet">INGRESAR A INTRANET</span>

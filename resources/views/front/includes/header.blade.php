@@ -2,7 +2,7 @@
         <v-list class="pa-1">
           <v-list-tile avatar>
             <v-list-tile-avatar>
-              <a href="{{ url("/") }}"><img src="{{ url("/images/logo_menu.png") }}" ></a>
+              <a href="{{ url("/") }}"><img src="{{ url("/images/logo.png") }}" class="img-responsive" style="width:100% !important;"></a>
             </v-list-tile-avatar>
           </v-list-tile>
         </v-list>

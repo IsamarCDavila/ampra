@@ -4,18 +4,19 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8" />
-        <title>Centenario</title>
+        <title>Ampra Consultant</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Centenario" name="description" />
         <meta content="" name="author" />
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta property="fb:app_id" content="452842801834883" />
+        <meta property="fb:app_id" content="" />
         <meta property="og:url" content="{{url('/')}}" >
         <meta property="og:type" content="article" >
         <meta property="og:title" content="Centenario" >
-        <meta property="og:description" content="Centenario" >
+        <meta property="og:description" content="Ampra Consultant" >
         <meta property="og:image" content="{{url('images/logo_menu.png')}}" >
+        <link rel="icon" href="{{url('images/logo.png')}}" type="image/gif" sizes="24x24">
         <meta property="og:image:width" content="1200" >
         <meta property="og:image:height" content="630" >
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
@@ -40,45 +41,7 @@
         <script src="<?php echo URL::asset('js/mapa.js'); ?>"></script>
 
         <script>
-        var ruta_principal = '{{url('/')}}';
-
-        window.fbAsyncInit = function() {
-        	FB.init({
-        	  appId            : '452842801834883',
-        	  autoLogAppEvents : true,
-        	  xfbml            : true,
-        	  version          : 'v2.10'
-        	});
-        	FB.AppEvents.logPageView();
-          };
-
-          (function(d, s, id){
-        	 var js, fjs = d.getElementsByTagName(s)[0];
-        	 if (d.getElementById(id)) {return;}
-        	 js = d.createElement(s); js.id = id;
-        	 js.src = "//connect.facebook.net/en_US/sdk.js";
-        	 fjs.parentNode.insertBefore(js, fjs);
-           }(document, 'script', 'facebook-jssdk'));
-
-           function shareOverrideOGMeta(overrideLink, overrideTitle, overrideDescription, overrideImage)
-            {
-            	FB.ui({
-            		method: 'share_open_graph',
-            		action_type: 'og.shares',
-            		action_properties: JSON.stringify({
-            			object: {
-            				'og:url': overrideLink,
-            				'og:title': overrideTitle,
-            				'og:description': overrideDescription,
-            				'og:image': overrideImage
-            			}
-            		})
-            	},
-            	function (response) {
-            	// Action after response
-            	});
-            }
-
+          var ruta_principal = '{{url('/')}}';
         </script>
       </head>
     <!-- END HEAD -->
@@ -100,7 +63,7 @@
                 <v-layout >
                     <div class="trapecio">
                       <div class="avatar avatar_menu" >
-                        <a href="{{ url("/") }}"><img src="{{ url("/images/logo_menu.png") }}" ></a>
+                        <a href="{{ url("/") }}"><img src="{{ url("/images/logo_menu.png") }}" class="img-responsive"></a>
                       </div>
 
                       <div class="btn_hamburguesa list_btn" @click.stop="drawer = !drawer">

@@ -5,7 +5,7 @@
 .trapecio{
     height: 0;
     width: 140px;
-    border-bottom: 40px solid #AA1731;
+    border-bottom: 40px solid #3C4859;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     transform: rotate(90deg);
@@ -14,7 +14,12 @@
     top: 30%;
 
 }
-
+.list__tile--avatar{
+  background: #fff;
+}
+.list__tile__avatar{
+  margin: 0 auto;
+}
 
 
 h1, p, span, div{
@@ -58,7 +63,7 @@ h1, p, span, div{
     text-decoration: inherit;
 }
 .list__tile:hover{
-    background: #AA1731 !important;
+    background: #EE9915 !important;
 }
 /* .list__group__header:hover{
     background: #AA1731 !important;
@@ -97,7 +102,7 @@ h1, p, span, div{
 } */
 #header .contenedor_header{
     /* background: #fff; */
-    background: #E00034;
+    background: #3C4859;
     color: #fff;
     width: 135px !important;
     height: 100%;
@@ -106,6 +111,11 @@ h1, p, span, div{
 .navigation-drawer--is-mobile:not(.navigation-drawer--close), .navigation-drawer--temporary:not(.navigation-drawer--close){
     box-shadow: initial !important;
 }
+
+.grey.darken-2, .grey.darken-2--after:after {
+    background-color: #EE9915!important;
+}
+
 /* #header .navigation-drawer{
     background: #fff;
 } */
@@ -353,7 +363,7 @@ a{
 }
 .galeria .btn--icon{
     border: none !important;
-    background: #D6D6D6 !important;
+    background: #3C4859 !important;
     width: 60px !important;
     height: 57% !important;
     border-radius: initial !important;
@@ -847,7 +857,8 @@ a{
     z-index: 1;
     top: 0%;
     width: 100%;
-    background: #fff;
+    background: #EE9915;
+    /* background: #fff; */
     padding: 1.5%;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
 }
@@ -1135,7 +1146,7 @@ svg#bigTriangleColor {
   height:100%;
   position:absolute;
   z-index:7;
-  background: #AA1731;
+  background: #3C4859;
   position: fixed;
 }
 .loader {
@@ -1144,7 +1155,7 @@ svg#bigTriangleColor {
   height: 30px;
   position: absolute;
   z-index:10;
-  border: 4px solid#CCCCCC;
+  border: 4px solid #EE9915;
   top: 50%;
   animation: loader 2s infinite ease;
   margin: 0 auto;
@@ -1155,7 +1166,7 @@ svg#bigTriangleColor {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #CCCCCC;
+  background-color: #EE9915;
   animation: loader-inner 2s infinite ease-in;
 }
 
@@ -1319,9 +1330,20 @@ box-sizing: inherit;
      position: relative;
  }
 #itemcomunidad .list__group__header--sub-group:hover{
-     background: #AA1731;
+     background: #EE9915;
  }
-
+ .contenedor_hero .container_1{
+   color: #fff;
+ }
+ .grey.darken-3{
+   background: #3C4859 !important;
+ }
+ .descripcion_galeria{
+   color: #EE9915 !important;
+ }
+.formulario_inicial .contenedor_contacto{
+  text-align: left;
+}
 .mas_portafolio .column_mediano{
     height: 300px !important;
     /* padding-left: 0% !important; */

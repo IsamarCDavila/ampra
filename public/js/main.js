@@ -150,12 +150,12 @@ var footer = new Vue({
                     title: 'CONTACT US',
                     children: [
                         {
-                            descripcion: 'Av. Victor Andrés Belaunde 147, Vía Principal,Edificio Real Cuatro, piso 01, San Isidro',
+                            descripcion: 'Arequipa, Paucarpata',
                             icon: 'place',
                             class: ''
                         },
                         {
-                            descripcion: '616 - 9000',
+                            descripcion: '999722195',
                             icon: 'local_phone',
                             class: ''
                         }
@@ -165,7 +165,7 @@ var footer = new Vue({
                     title: 'NAVIGATION',
                     children: [
                         {
-                            descripcion: 'Oficinas',
+                            descripcion: 'Portafolio',
                             href: 'portafolio',
                             icon: '',
                             class: ''
